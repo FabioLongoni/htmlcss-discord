@@ -30,10 +30,10 @@ header {
 }
 
 .link a {
-    flex-grow: 1;
+    flex-basis: 60%;
     text-align: center;
-    gap: 20px;
     text-decoration: none;
+    padding: 0 20px 0 20px;
 }
 
 .logo, .link, .login {
