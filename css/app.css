@@ -14,7 +14,7 @@
 
 header {
     padding: 10px 0;
-    background-color:#add8e6;
+    background-color:#255ee9;
 }
 .header {
     background-color: #daa520;
@@ -29,14 +29,20 @@ header {
     text-align: right;
 }
 
-.link {
-    flex-basis: 60%;
+.link a {
+    flex-grow: 1;
     text-align: center;
+    gap: 20px;
+    text-decoration: none;
 }
 
 .logo, .link, .login {
     border: 2px dashed black ;
     padding: 5px;
+}
+
+nav img{
+    max-width: 100px;
 }
 
 /* MAIN */
@@ -173,19 +179,11 @@ header {
 
 .footer1 {
     padding: 15px 0 35px 0;
-    border-bottom: 2px solid white;
     background-color: #23272a ;
-}
-
-.first-footer {
-    border: 2px dashed black;
-    height: 450px;
 }
 
 .col-2-footer1, .col-3-footer1, .col-4-footer1, .col-5-footer1 {
     flex-basis:calc(100% / 6);
-    background-color: #20b2aa;
-    border: 2px dashed white;
 }
 
 .col-1-footer1 {
@@ -202,22 +200,34 @@ header {
     font-size: 20px;
     color: white;
     background-color: transparent;
+    border-color: transparent;
+}
+
+h5 {
+    color:#7389d2;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+    color: white;
 }
 
 .footer2 {
-    padding-top: 20px;
-    border-bottom: 2px solid white;
     background-color: #23272a;
 }
 
 .last-footer {
     justify-content: space-between;
-    background-color:#7fffd4 ;
     padding: 20px 0 20px 0;
+    border-top: 1px solid white;
 }
 
 .logo1, .bottone {
-    padding: 5px;
-    border: 2px dashed black;
-    background-color:#ffb6c1;
+    padding: 10px;
+    background-color: #7289da;
+    border-radius: 20px;
+    color: white;
 }
