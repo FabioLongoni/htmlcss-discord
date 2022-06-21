@@ -17,16 +17,29 @@ header {
     background-color:#255ee9;
 }
 .header {
-    background-color: #daa520;
     justify-content: space-between;
 }
 
 .logo, .login{
-    flex-basis: 20%;
+    flex-basis: 200px;
+    align-content: ;
 }
 
 .login {
-    text-align: right;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+#login-header {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 10px;
+
 }
 
 .link a {
@@ -34,16 +47,17 @@ header {
     text-align: center;
     text-decoration: none;
     padding: 0 20px 0 20px;
+    color: white;
+    font-size: 20px;
 }
 
-.logo, .link, .login {
-    border: 2px dashed black ;
+.logo, .link {
     padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
-nav img{
-    max-width: 100px;
-}
 
 /* MAIN */
 
@@ -109,7 +123,6 @@ nav img{
 .col-1-main {
     flex-basis: 60%;
     height: 100%;
-    background-color:#9e10ff ;
     display: flex;
     justify-content: center;
 }
@@ -117,16 +130,11 @@ nav img{
 .col-2-main {
     flex-basis: 40%;
     height: 100%;
-    background-color: #ffc0cb;
 }
 
 #reverse {
     flex-direction: row-reverse;
 }
-
-/* .rev, .last {
-    background-color:#d3d3d3 ;
-} */
 
 .third-section img {
     max-width: 600px;
@@ -194,6 +202,10 @@ nav img{
     font-size: 35px;
     padding-bottom: 10px;
     color: #7389d2;
+}
+
+.flag {
+    max-width: 25px;
 }
 
 .col-1-footer1 select {
