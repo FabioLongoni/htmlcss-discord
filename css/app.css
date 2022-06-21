@@ -86,14 +86,13 @@ header {
     max-width: 550px;
 }
 
-.content-section-main {
+/* .content-section-main {
     flex-basis: 100%;
-    justify-content: center;
-}
+} */
 
 .col-2-main h2 {
     font-size: 40px;
-    padding: 30px 40px 20px 0;
+    padding-top: 30px;
 }
 
 .col-2-main p {
@@ -119,9 +118,9 @@ header {
     flex-direction: row-reverse;
 }
 
-.rev, .last {
+/* .rev, .last {
     background-color:#d3d3d3 ;
-}
+} */
 
 .third-section img {
     max-width: 600px;
