@@ -127,12 +127,47 @@ header {
 }
 
 .content-section-last {
-    height: 780px;
-    border: 2px dashed black;
     flex-basis: 100%;
-    background-color: #228b22;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
+.content-section-last h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.content-section-last p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-section-last h3 {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.content-section-last img {
+    width: 100%;
+}
+
+.content-section-last button {
+    padding: 10px;
+    border-radius: 20px;
+    background-color:#7289da ;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-main {
+    padding: 40px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 /* footer */
 
@@ -155,8 +190,18 @@ header {
 
 .col-1-footer1 {
     flex-basis: calc(100% / 3 );
-    background-color: #f08080;
-    border: 2px dashed black;
+}
+
+.col-1-footer1 h4 {
+    font-size: 35px;
+    padding-bottom: 10px;
+    color: #7389d2;
+}
+
+.col-1-footer1 select {
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
 }
 
 .footer2 {
